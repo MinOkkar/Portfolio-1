@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>MinOkkar</title>
+    <!-- css -->
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
@@ -11,10 +12,10 @@
     <header id="header">
       <h1>Min Okkar</h1>
       <nav id="navbar" aria-label="Main navigation">
-        <a href="#about">About</a>
-        <a href="#projects">Projects</a>
-        <a href="#blog">Blog</a>
-        <a href="#contact">Contact</a>
+        <a href="#about" tabindex="1">About</a>
+        <a href="#projects" tabindex="2">Projects</a>
+        <a href="#blog" tabindex="3">Blog</a>
+        <a href="#contact"tabindex="4">Contact</a>
       </nav>
     </header>
 
@@ -30,145 +31,118 @@
           that combines web development and cybersecurity.
         </p>
         <nav id="external-links" aria-label="External links">
-          <a href="https://facebook.com" target="_blank">Facebook</a>
-          <a href="https://github.com" target="_blank">Github</a>
-          <a href="https://linkedin.com" target="_blank">Linkedin</a>
+          <a href="https://facebook.com" title="to facebook" target="_blank">Facebook</a>
+          <a href="https://github.com" title="to github" target="_blank">Github</a>
+          <a href="https://linkedin.com" title="to linkedin" target="_blank">Linkedin</a>
         </nav>
       </div>
     </section>
     <hr>
     <!-- projects section -->
     <section id="projects">
-      <h2 class="heading">Projects</h2>
+      <h2 id="tempo-header" class="heading">Projects</h2>
       <div class="projects-div">
         <div class="project">
-          <img src="Assets/1.png" alt="" />
-          <h2>project 1</h2>
-          <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente,
-            recusandae dolorem quasi itaque, eveniet ex necessitatibus totam
-            alias molestiae aut iure inventore nemo et, enim distinctio
-            exercitationem quas rem earum!
+          <img src="Assets/1.png" alt="color picker project" />
+          <h2>project 1 - color picker</h2>
+          <p>a simple and interactive color picker tool that allows users to select a color and see the result in multiple formats (hexadecimal, RGB, and HSL).
           </p>
-          <a href="" target="_blank">Detail</a>
+          <a href="https://github.com/MinOkkar/Color-Picker-HTML" title="for more detail" target="_blank">Detail</a>
         </div>
 
         <div class="project">
-          <img src="Assets/2.png" alt="" />
-          <h2>project2</h2>
+          <img src="Assets/2.png" alt="Blackmarket project" />
+          <h2>project2 - Blackmarket</h2>
           <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente,
-            recusandae dolorem quasi itaque, eveniet ex necessitatibus totam
-            alias molestiae aut iure inventore nemo et, enim distinctio
-            exercitationem quas rem earum!
+            The Blackmarket Firearm Management System is a simple graphical user interface (GUI) application built using Python's tkinter library. It allows users to manage a list of firearms by adding, updating, searching, and deleting firearms from the system. The data is stored in a CSV file, and the application dynamically updates the total count of firearms.
           </p>
-          <a href="" target="_blank">Detail</a>
+          <a href="https://github.com/MinOkkar/GUI-DIT102" title="for more detail" target="_blank">Detail</a>
         </div>
 
         <div class="project">
-          <img src="Assets/3.png" alt="" />
-          <h2>project3</h2>
+          <img src="Assets/3.png" alt="phonix project" />
+          <h2>project3 - phonix</h2>
           <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente,
-            recusandae dolorem quasi itaque, eveniet ex necessitatibus totam
-            alias molestiae aut iure inventore nemo et, enim distinctio
-            exercitationem quas rem earum!
+            efficient Phone Book Management System built with Python, utilizing Binary Search Tree (BST) data structure for storing and managing contacts. This project allows users to add, search, update, and delete contacts, providing an efficient way to manage large sets of data.
           </p>
-          <a href="" target="_blank">Detail</a>
+          <a href="https://github.com/MinOkkar/Phonix" title="for more detail" target="_blank">Detail</a>
         </div>
 
 
         </div>
       </div>
+      <h2 id="tempo-header2" class="heading" aria-hidden="true">Projects</h2>
     </section>
     <hr>
+
+
     <!-- blog section -->
     <section id="blog">
       <h2 class="heading">Blog</h2>
       <main>
       <article>
-        <h2>HTML</h2>
+        <h2>Imposter</h2>
         <p class="post-meta">
-          Published on December 11, 2023 by GeeksforGeeks
+          Published on December 11, 2026 by Okkar
         </p>
         <p>
-          HTML stands for HyperText Markup Language. It is used to design the
-          web pages. With the help of HTML, you can create a complete website
-          structure. HTML is the combination of Hypertext and Markup language.
-          Hypertext defines the link between the web pages and markup language
-          defines the text document within the tag that define the structure
-          of web pages.
+          Being an intern often felt like a game of “Don’t Get Caught.” Every time I pushed a commit, I thought, “Is today the day they figure out I Google everything?” Turns out, everyone Googles everything—it's just called "research" when you're a professional.
         </p>
       </article>
 
       <article>
-        <h2>CSS</h2>
+        <h2>Meetings</h2>
         <p class="post-meta">
-          Published on December 10, 2023 by GeeksforGeeks
+          Published on December 10, 2029 by Okkar
         </p>
+        Internship meetings are a whole experience. Half the time, I nodded like I understood phrases like "scope creep" and "synergy," while secretly Googling them. Pro tip: If you want to look smart, just say, “We should circle back on that” and hope nobody asks you to explain.
         <p>
-          CSS (Cascading Style Sheets) is used to styles web pages. Cascading
-          Style Sheets are fondly referred to as CSS. The reason for using
-          this is to simplify the process of making web pages presentable. It
-          allows you to apply styles on web pages. More importantly, it
-          enables you to do this independently of the HTML that makes up each
-          web page.
         </p>
       </article>
 
       <article>
-        <h2>JavaScript</h2>
+        <h2>Breakpoints</h2>
         <p class="post-meta">
-          Published on December 09, 2023 by GeeksforGeeks
+          Published on December 09, 2021 by Okkar
         </p>
         <p>
-          JavaScript (JS) is the most popular lightweight, interpreted
-          compiled programming language. It can be used for both Client-side
-          as well as Server-side developments. JavaScript also known as a
-          scripting language for web pages. This JavaScript Tutorial is
-          designed to help both beginners and experienced professionals master
-          the fundamentals of JavaScript and unleash their creativity to build
-          powerful web applications. From basic syntax and data types to
-          advanced topics such as object-oriented programming and DOM
-          manipulation.
+          Internships are where you learn that breakpoints aren’t just for debugging—they’re for your sanity. There were moments when I hit my mental breakpoint staring at a bug, only to realize I forgot a semicolon. It’s humbling but also a rite of passage into the developer life.
         </p>
       </article>
 
       <article>
-        <h2>ReactJS</h2>
+        <h2>Coffee</h2>
         <p class="post-meta">
-          Published on December 08, 2023 by GeeksforGeeks
+          Published on December 08, 2024 by Okkar
         </p>
         <p>
-          ReactJS is a declarative, efficient, and flexible JavaScript library
-          for building user interfaces. It is an open-source, component-based
-          front-end library that is responsible only for the view layer of the
-          application. ReactJS is not a framework, it is just a library
-          developed by Facebook to solve some problems that we were facing
-          earlier.
+          Internships taught me one essential skill: how to survive on coffee. Whether it was debugging code at 3 a.m. or pretending to understand what the senior dev was saying in meetings, coffee was my closest ally. It’s not just a drink—it’s liquid motivation and the reason my code compiles (sometimes).
         </p>
       </article>
       </main>
     </section>
     <hr>
+
+
+<!-- contact -->
     <section id="contact">
       <h2 class="heading">Contact me</h2>
       <form id="contactForm">
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="name" placeholder="Your name" required>
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" placeholder="Your name" aria-required="true">
   
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" placeholder="Your email" required>
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="Your email" aria-required="true">
   
-        <label for="message">Message:</label>
-        <textarea id="message" name="message" placeholder="Your message" rows="5" required></textarea>
+        <label for="message">Message</label>
+        <textarea id="message" name="message" placeholder="Your message" rows="5" aria-required="true"></textarea>
   
-        <button type="submit">Submit</button>
+        <button type="submit" aria-label="submit button">Submit</button>
       </form>
       <p id="responseMessage"></p>
     </section>
     <footer>
-      <p>Min Okkar</p>
+      <p id="footer-text">@ Min Okkar</p>
     </footer>
     <script src="script.js"></script>
   </body>

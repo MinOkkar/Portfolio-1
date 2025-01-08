@@ -6,12 +6,14 @@ document.getElementById("contactForm").addEventListener("submit", function (e) {
   const message = document.getElementById("message").value.trim();
 
   if (!name || !email || !message) {
-    alert("Please fill out all fields.");
+    document.getElementById(
+      "responseMessage"
+    ).textContent = `Field not completed`;
     return;
   }
 
   document.getElementById(
     "responseMessage"
-  ).textContent = `Thank you, ${name}! Your message has been sent.`;
+  ).textContent = `Thank you, ${name}. Your message has been sent.`;
   this.reset();
 });
